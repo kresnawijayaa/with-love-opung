@@ -114,10 +114,10 @@ const Home = () => {
               >
                 In Loving Memory of Our Beloved Opung
               </h1>
-              <p className='mt-10 sm:text-4xl text-2xl leading-6 text-gray-300'>
+              <p className='mt-10 sm:mt-6 sm:text-4xl text-2xl leading-6 text-gray-300'>
                 ALVA ROSE MARY
               </p>
-              <p className='mt-2 sm:mt-6 text-sm leading-6 text-gray-300'>
+              <p className='mt-2 sm:mt-4 text-sm leading-6 text-gray-300'>
                 [ 30 Oktober 1948 - 28 Mei 2025 ]
               </p>
               {!invitationOpen ? (
@@ -143,7 +143,6 @@ const Home = () => {
                         ].map((src, idx) => (
                           <li key={idx}>
                             <a
-                              href='#'
                               className='group block overflow-hidden'
                             >
                               <img
@@ -165,7 +164,6 @@ const Home = () => {
                         ].map((src, idx) => (
                           <li key={idx}>
                             <a
-                              href='#'
                               className='group block overflow-hidden'
                             >
                               <img
@@ -187,7 +185,6 @@ const Home = () => {
                         ].map((src, idx) => (
                           <li key={idx}>
                             <a
-                              href='#'
                               className='group block overflow-hidden'
                             >
                               <img
@@ -209,7 +206,6 @@ const Home = () => {
                         ].map((src, idx) => (
                           <li key={idx}>
                             <a
-                              href='#'
                               className='group block overflow-hidden'
                             >
                               <img
@@ -232,16 +228,16 @@ const Home = () => {
                   >
                     View Full Gallery <span aria-hidden='true'>→</span>
                   </a>
+
+                  <p className='italic mt-16 text-md leading-6 text-gray-300'>
+                    "Aku telah mengakhiri pertandingan yang baik, aku telah
+                    mencapai garis akhir dan aku telah memelihara iman."
+                  </p>
+                  <p className='mt-4 text-sm leading-6 text-gray-300'>
+                    [ 2 Timotius 4:7 ]
+                  </p>
                 </div>
               )}
-
-              <p className='italic mt-16 text-md leading-6 text-gray-300'>
-                "Aku telah mengakhiri pertandingan yang baik, aku telah mencapai
-                garis akhir dan aku telah memelihara iman."
-              </p>
-              <p className='mt-4 text-sm leading-6 text-gray-300'>
-                [ 2 Timotius 4:7 ]
-              </p>
             </div>
           </div>
 
