@@ -41,24 +41,6 @@ const Home = () => {
   const handleOpenButtonClick = () => {
     setInvitationOpen(true);
     playAudio();
-
-    // ---- CounterAPI Integration START ----
-    const namespace = "opung-memorial"; // Ganti dengan namespace pilihan Anda
-    const key = "blessed-memories-clicks"; // Ganti dengan key pilihan Anda
-    const counterApiUrl = `https://api.counterapi.dev/v1/${namespace}/${key}/up`;
-
-    fetch(counterApiUrl)
-      .then(res => res.json())
-      .then(data => {
-        console.log("Counter API response:", data);
-        // data akan berisi { namespace, key, value (jumlah baru) }
-        // Anda bisa menggunakan data.value jika ingin menampilkan jumlahnya,
-        // tapi untuk sekadar mencatat, ini sudah cukup.
-      })
-      .catch(error => {
-        console.error("Error incrementing counter:", error);
-      });
-    // ---- CounterAPI Integration END ----
   };
 
   return (
