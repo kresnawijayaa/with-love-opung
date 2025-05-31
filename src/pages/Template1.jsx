@@ -142,9 +142,7 @@ const Home = () => {
                           opungImage4,
                         ].map((src, idx) => (
                           <li key={idx}>
-                            <a
-                              className='group block overflow-hidden'
-                            >
+                            <a className='group block overflow-hidden'>
                               <img
                                 src={src}
                                 alt=''
@@ -163,9 +161,7 @@ const Home = () => {
                           opungImage8,
                         ].map((src, idx) => (
                           <li key={idx}>
-                            <a
-                              className='group block overflow-hidden'
-                            >
+                            <a className='group block overflow-hidden'>
                               <img
                                 src={src}
                                 alt=''
@@ -184,9 +180,7 @@ const Home = () => {
                           opungImage12,
                         ].map((src, idx) => (
                           <li key={idx}>
-                            <a
-                              className='group block overflow-hidden'
-                            >
+                            <a className='group block overflow-hidden'>
                               <img
                                 src={src}
                                 alt=''
@@ -205,9 +199,7 @@ const Home = () => {
                           opungImage16,
                         ].map((src, idx) => (
                           <li key={idx}>
-                            <a
-                              className='group block overflow-hidden'
-                            >
+                            <a className='group block overflow-hidden'>
                               <img
                                 src={src}
                                 alt=''
@@ -293,9 +285,9 @@ const Home = () => {
                   </a>
                 </div> */}
 
-                <p className='text-center text-sm text-white lg:text-right sm:mx-0 mx-20 sm:mt-0 mt-6'>
+                <p className='text-center text-sm text-white lg:text-right sm:mx-0 mx-20'>
                   Crafted with ❤️ by cucu Opung yang paling susah disuruh🥺 —
-                  Kresna.
+                  KW.
                 </p>
               </div>
             </div>
