@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Link } from 'react-router-dom';
 import AppRoutes from './routes';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       </nav> */}
       
       <AppRoutes />
+      <Analytics />
     </Router>
   );
 };
